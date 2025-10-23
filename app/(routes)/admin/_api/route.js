@@ -1,7 +1,7 @@
 const { default: axios } = require("axios");
 
 const axiosClient = axios.create({
-  baseURL: "http://localhost:5000/api/v1/admin",
+  baseURL: process.env.NEXT_PUBLIC_API_URL,
   withCredentials: true, // include cookies if your backend uses them
 });
 
