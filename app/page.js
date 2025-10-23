@@ -5,10 +5,6 @@ import Slider from "./_components/Slider";
 import GlobalApi from "./_utils/GlobalApi";
 import Image from "next/image";
 export default async function Home() {
-  // const sliderList = await GlobalApi.getSliders();
-  // const categoryList = await GlobalApi.getCategoryList();
-  // const productList = await GlobalApi.getProductList();
-
   return (
     <>
       <div className="p-1.5 md:p-10  px-3 md:px-16">
