@@ -4,6 +4,8 @@ import Products from "./_components/Products";
 import Slider from "./_components/Slider";
 import GlobalApi from "./_utils/GlobalApi";
 import Image from "next/image";
+
+// aayush
 export default async function Home() {
   return (
     <>
